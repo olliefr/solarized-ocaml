@@ -1,8 +1,9 @@
-# Solarized color theme as OCaml module
+# Solarized for OCaml
 
-Stolen from Ethan Schoonover http://ethanschoonover.com/solarized by Ollie Frolovs http://frolovs.me
-  
-  2014
+This wonderful colour theme was stolen from [Ethan Schoonover] by [Ollie Frolovs] as an attempt to provide an OCaml-friendly way of Solarizing the world. Patches are welcome.
+
+[Ethan Schoonover]: http://ethanschoonover.com/solarized
+[Ollie Frolovs]: http://frolovs.me
 
 ## Details
 
@@ -17,8 +18,4 @@ Stolen from Ethan Schoonover http://ethanschoonover.com/solarized by Ollie Frolo
 ```ocaml
     let module Palette = Solarized in
     Palette.( Sdl.set_render_draw_color rend orange.r orange.g orange.b )
-```
-  or
-```ocaml
-    Solarized.( Sdl.set_render_draw_color rend orange.r orange.g orange.b )
 ```
