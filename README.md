@@ -9,13 +9,13 @@ This wonderful colour theme was stolen from [Ethan Schoonover] by [Ollie Frolovs
 
   Currently, only sRGB values are available.
 
-```ocaml
+```
     Solarized.orange.r
     Solarized.orange.g
     Solarized.orange.b
 ```
   Local open may be useful
-```ocaml
+```
     let module Palette = Solarized in
     Palette.( Sdl.set_render_draw_color rend orange.r orange.g orange.b )
 ```
